@@ -52,16 +52,23 @@ body {
 .btn-block {
   display: block;
   width: 100%;
+  margin-bottom: 10%;
 }
 
 .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: #f4f4f4;
   margin: 5px;
   padding: 10px 20px;
+}
+
+.taskPointer {
   cursor: pointer;
 }
 
-.task.reminder {
+.reminder {
   border-left: 5px solid green;
 }
 
